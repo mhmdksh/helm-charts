@@ -3,7 +3,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2019-12-28T14:01:33.887535299Z"
+    created: "2019-12-28T15:08:45.944962698Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -34,7 +34,7 @@ entries:
     version: 8.2.0
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2019-12-28T14:01:33.883456231Z"
+    created: "2019-12-28T15:08:45.936721488Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -63,4 +63,35 @@ entries:
     urls:
     - wordpress-8.1.0.tgz
     version: 8.1.0
-generated: "2019-12-28T14:01:33.878393511Z"
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2019-12-28T15:08:45.931639666Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: This is my chart, with rook-ceph-block storage
+    digest: 5be755189baa34909fbef5fecc1a73eed71dcf960e7457f13b7ecae3042ef83e
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.0.0.tgz
+    version: 8.0.0
+generated: "2019-12-28T15:08:45.923650875Z"
