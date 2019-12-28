@@ -1,6 +1,5 @@
 # Private Helm-Charts Repository
 ## Notes:
-### Setup Git
 1. Fetch the helm chart:
 
         helm fetch --untar stable/wordpress
