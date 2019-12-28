@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2019-12-28T12:36:53.377975646Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: This is my charts that I put out there
+    digest: 414c70570ab7faa4a01e60ebde49e6b0377afe87eff1203325903b6f4956a06f
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.1.0.tgz
+    version: 8.1.0
+generated: "2019-12-28T12:36:53.373341628Z"
